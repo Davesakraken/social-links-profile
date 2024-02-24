@@ -1,0 +1,105 @@
+body {
+  font-family: Inter;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* This will push the footer down */
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: hsl(0, 0%, 8%);
+}
+
+img {
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 15px;
+  background-color: hsl(0, 0%, 20%);
+  height: 40px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 300ms ease;
+}
+
+li:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+
+h1 {
+  font-weight: 400;
+  padding: 0;
+  padding-top: 25px;
+  margin: 0;
+}
+
+h2 {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(75, 94%, 57%);
+}
+
+/* classes */
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 20px;
+  width: 390px;
+  height: 620px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.upper {
+  padding: ;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  width: 88%;
+}
+
+.links li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+}
+
+.attribution {
+  margin-top: 100px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* utility */
+
+.flex-center-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
